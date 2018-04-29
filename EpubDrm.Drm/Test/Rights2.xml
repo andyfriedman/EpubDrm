@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DRMPermissions Status="0" DateTime="2015-02-06T09:55:34.782-05:00" ISBN="9780313097294" Format="XPS" Market="RTL" ESupplier="AMBEC">
+  <!-- AMBEC Retail Permissions Information -->
+  <!-- May not move a trade publication file to more than 4 additional devices for a total of 5 devices -->
+  <devices count="5" />
+  <!-- May not copy /paste more than 20% of the content of the eBook title every 365 days -->
+  <!-- May not print or cut and paste any material from the eBook Title without a dynamic watermark or other statement that indicates the material is protected by copyright. -->
+  <copy days="365" percentage="100" watermark="true" copyright="true" notice="Copyright held by Publisher.  All rights Reserved." />
+  <!-- May not print more than 15% of the eBook Title in any rolling 30-day peroid -->
+  <!-- May not print or cut and paste any material from the eBook Title without a dynamic watermark or other statement that indicates the material is protected by copyright. -->
+  <print days="30" percentage="15" watermark="true" copyright="true" notice="Copyright held by Publisher.  All rights Reserved." />
+  <!-- May not violate restrictions on reading aloud; if any -->
+  <audio ttsread="true" />
+  <!-- Enable reflow for title -->
+  <reflow permission="true" smallscreen="true" />
+  <!--  Enable Preview   -->
+  <preview measurement="words" quantity="10000" />
+</DRMPermissions>

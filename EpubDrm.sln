@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpubDrm.Epub", "EpubDrm.Epub\EpubDrm.Epub.csproj", "{EE94F5E1-6619-4B06-B4E7-512DAFEAE085}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpubDrm.Drm", "EpubDrm.Drm\EpubDrm.Drm.csproj", "{0D0EA3E4-0660-46EE-A475-747D7F107EDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpubDrm.Drm.Tests", "EpubDrm.Drm.Tests\EpubDrm.Drm.Tests.csproj", "{9BFC667D-8E5F-422D-97C6-A09F2CD679FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpubDrm.Epub.Tests", "EpubDrm.Epub.Tests\EpubDrm.Epub.Tests.csproj", "{CE4DFA29-0ECB-4EF7-9A34-ED5D9200D151}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C42140B3-AA55-4137-B319-90890D4D5E36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpubDrm.EpubConverter", "EpubDrm.EpubConverter\EpubDrm.EpubConverter.csproj", "{961394B3-8D36-4818-B9FC-EC3D77649FEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{AB7C2957-196F-4D7C-94C0-7C27F71E39B9}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://codefabricator.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = EpubDrm.Drm.Tests\\EpubDrm.Drm.Tests.csproj
+		SccProjectTopLevelParentUniqueName1 = EpubDrm.EpubDrm.sln
+		SccProjectName1 = EpubDrm.Drm.Tests
+		SccLocalPath1 = EpubDrm.Drm.Tests
+		SccProjectUniqueName2 = EpubDrm.Drm\\EpubDrm.Drm.csproj
+		SccProjectName2 = EpubDrm.Drm
+		SccLocalPath2 = EpubDrm.Drm
+		SccProjectUniqueName3 = EpubDrm.Epub.Tests\\EpubDrm.Epub.Tests.csproj
+		SccProjectTopLevelParentUniqueName3 = EpubDrm.EpubDrm.sln
+		SccProjectName3 = EpubDrm.Epub.Tests
+		SccLocalPath3 = EpubDrm.Epub.Tests
+		SccProjectUniqueName4 = EpubDrm.Epub\\EpubDrm.Epub.csproj
+		SccProjectName4 = EpubDrm.Epub
+		SccLocalPath4 = EpubDrm.Epub
+		SccProjectUniqueName5 = EpubDrm.EpubConverter\\EpubDrm.EpubConverter.csproj
+		SccProjectName5 = EpubDrm.EpubConverter
+		SccLocalPath5 = EpubDrm.EpubConverter
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE94F5E1-6619-4B06-B4E7-512DAFEAE085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE94F5E1-6619-4B06-B4E7-512DAFEAE085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE94F5E1-6619-4B06-B4E7-512DAFEAE085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE94F5E1-6619-4B06-B4E7-512DAFEAE085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D0EA3E4-0660-46EE-A475-747D7F107EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D0EA3E4-0660-46EE-A475-747D7F107EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D0EA3E4-0660-46EE-A475-747D7F107EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D0EA3E4-0660-46EE-A475-747D7F107EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BFC667D-8E5F-422D-97C6-A09F2CD679FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BFC667D-8E5F-422D-97C6-A09F2CD679FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BFC667D-8E5F-422D-97C6-A09F2CD679FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BFC667D-8E5F-422D-97C6-A09F2CD679FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE4DFA29-0ECB-4EF7-9A34-ED5D9200D151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE4DFA29-0ECB-4EF7-9A34-ED5D9200D151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE4DFA29-0ECB-4EF7-9A34-ED5D9200D151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE4DFA29-0ECB-4EF7-9A34-ED5D9200D151}.Release|Any CPU.Build.0 = Release|Any CPU
+		{961394B3-8D36-4818-B9FC-EC3D77649FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{961394B3-8D36-4818-B9FC-EC3D77649FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{961394B3-8D36-4818-B9FC-EC3D77649FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{961394B3-8D36-4818-B9FC-EC3D77649FEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9BFC667D-8E5F-422D-97C6-A09F2CD679FC} = {C42140B3-AA55-4137-B319-90890D4D5E36}
+		{CE4DFA29-0ECB-4EF7-9A34-ED5D9200D151} = {C42140B3-AA55-4137-B319-90890D4D5E36}
+	EndGlobalSection
+EndGlobal

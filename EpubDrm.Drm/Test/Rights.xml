@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DRMPermissions Status="0" DateTime="2015-01-29T09:38:49.046-05:00" ISBN="9781908006028" Format="XPS" Market="RTL" ESupplier="LSIEB">
+  <!-- LSIEB Retail Permissions Information -->
+  <!-- May not move a textbook publication file to more than 4 additional devices for a total of 5 devices -->
+  <devices count="5" />
+  <!-- May not copy /paste more than 20% of the content of the eBook title every 365 days -->
+  <copy days="365" percentage="20" />
+  <!-- May not print more than 15% of the eBook Title in any rolling 30-day peroid -->
+  <print days="30" percentage="15" />
+  <!-- May not violate restrictions on reading aloud; if any -->
+  <audio ttsread="1" />
+  <!-- Enable reflow for title -->
+  <reflow permission="0">
+  </reflow>
+  <!-- Enable Preview -->
+  <preview measurement="percentage" quantity="10" />
+</DRMPermissions>
